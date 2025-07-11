@@ -1,0 +1,70 @@
+.thumbnail{
+  width: 100%;
+  border-radius:10px;
+  transition: border-radius 0.15s;
+  z-index: 1;
+  display:block;
+}
+.thumbnail:hover{
+  border-radius:0px;
+  cursor: pointer;
+}
+
+.video-stats{
+  margin-bottom: 3px;
+  color:rgba(47, 46, 46, 0.847);
+}
+
+.video-title{
+  font-weight:bold;
+  cursor: pointer;
+  line-height: 20px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  width:100%;
+}
+.page-grid{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 30px;
+  row-gap: 40px;
+}
+.video-preview{
+  vertical-align:top;
+}
+
+.grid-vid-details{
+  display: grid;
+  grid-template-columns: 40px 1fr;
+  column-gap: 10px;
+}
+
+.channel-img{
+  margin-top: 10px;
+  vertical-align: top;
+  border-radius: 40px;
+  width: 100%;
+}
+
+.vid-timer{
+  position: relative;
+  overflow: hidden;
+}
+
+.vid-timer-details{
+  position: absolute;
+  bottom:7px;
+  right:7px;
+  color: white;
+  background-color: black;
+  padding-bottom: 2px;
+  padding-top: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 3px;
+  z-index: 2;
+}
+
+
+
+
